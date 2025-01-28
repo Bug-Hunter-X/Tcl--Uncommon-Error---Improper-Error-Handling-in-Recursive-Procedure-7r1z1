@@ -1,0 +1,1 @@
+proc badproc {x} { if {$x == 0} {return 0} {return 1/[expr $x-1]}}
